@@ -1,0 +1,43 @@
+.container {
+    width: 800px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+table {
+    display: table;
+    margin: auto;
+}
+
+.tambah {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-left: 250px;
+    margin-top: 30px;
+
+}
+
+a,
+button {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a:hover,
+button:hover {
+    opacity: .5;
+    transition: .3s;
+}
